@@ -22,7 +22,7 @@ From validation set
 
 python/image_composition.py is used to create artificial datasets for training and validation with mask_definitions.json files. synthetic_dataset/val/dataset_info.json can be created manually and enter the details console when python/image_composition.py is executed.
 
-Using train-validation sets generated images and mask_definitions.json files with respective dataset_info.json files in coco instatnce format to create coco_instances.json file (synthetic_dataset/train/coco_instances.json & synthetic_dataset/val/coco_instances.json). Need to the python/image_composition.py file.
+Using train-validation sets generated images and mask_definitions.json files with respective dataset_info.json files in coco instatnce format to create coco_instances.json file (synthetic_dataset/train/coco_instances.json & synthetic_dataset/val/coco_instances.json). Need to the python/coco_json_utils.py file.
 
 #### Note: Above all code is compatible with python 3.5
 
@@ -42,6 +42,6 @@ tensorflow-gpu 1.14.0
 
 Please go through the notebook https://github.com/AbhinayReddyYarva/MaskRCNN-ObjectSegmentation/blob/master/notebooks/train_mask_rcnn.ipynb
 
-#### Note: Before starting the model to train, two files need to be updated in matterport mask rcnn repo. 
+#### Note: Before starting the model to train, two files need to be updated in matterport mask rcnn repo to fix AttributeError and RuntimeError.
 
 Please go through the readme.md file in matter_mask_rcnn - https://github.com/AbhinayReddyYarva/MaskRCNN-ObjectSegmentation/blob/master/matterport_mask_rcnn/README.md
