@@ -12,5 +12,5 @@ For this sample model I have selected 4 different objects i.e., mug, red bottle,
 
 These cropped objects will be placed on background images randomnly with different object combinations and mask images will also get created with mask definitions .json file in coco dataset annotations format i.e., (synthetic_dataset/train/mask_definitions.json) for training set and (synthetic_dataset/val/mask_definitions.json) for validation set.
 
-![](synthetic_dataset/train/images/00000002.jpg)![](synthetic_dataset/train/masks/00000002.png)
+![](synthetic_dataset/train/images/00000002.jpg)![](synthetic_dataset/train/masks/00000002.png) ![](synthetic_dataset/val/images/00000298.jpg, synthetic_dataset/val/masks/00000298.png)
 
