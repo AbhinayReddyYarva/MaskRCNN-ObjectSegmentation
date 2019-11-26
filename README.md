@@ -10,5 +10,7 @@ For this sample model I have selected 4 different objects i.e., mug, red bottle,
 
 ![](synthetic_dataset/input/foregrounds/utilities/mug/03.png) ![](synthetic_dataset/input/foregrounds/utilities/red_bottle/01.png) ![](synthetic_dataset/input/foregrounds/electronics/voip/03.png) ![](synthetic_dataset/input/foregrounds/electronics/mouse/02.png) ![](synthetic_dataset/input/backgrounds/IMG_20191120_101657.jpg)
 
-These cropped objects will be placed on background images randomnly with different object combinations and mask images will also get created with mask definitions .json file in coco dataset annotations format i.e., 
+These cropped objects will be placed on background images randomnly with different object combinations and mask images will also get created with mask definitions .json file in coco dataset annotations format i.e., (synthetic_dataset/train/mask_definitions.json) for training set and (synthetic_dataset/val/mask_definitions.json) for validation set.
+
+![](synthetic_dataset/train/images/00000002.jpg)![](synthetic_dataset/train/masks/00000002.png)
 
