@@ -13,9 +13,11 @@ For this sample model I have selected 4 different objects i.e., mug, red bottle,
 These cropped objects will be placed on background images randomnly with different object combinations and mask images will also get created with mask definitions .json file in coco dataset annotations format i.e., (synthetic_dataset/train/mask_definitions.json) for training set and (synthetic_dataset/val/mask_definitions.json) for validation set.
 
 From tarining set 
+
 ![](synthetic_dataset/train/images/00000002.jpg) ![](synthetic_dataset/train/masks/00000002.png) 
 
 From validation set 
+
 ![](synthetic_dataset/val/images/00000298.jpg) ![](synthetic_dataset/val/masks/00000298.png)
 
 python/image_composition.py is used to create artificial datasets for training and validation with mask_definitions.json files. synthetic_dataset/val/dataset_info.json can be created manually and enter the details console when python/image_composition.py is executed.
@@ -43,9 +45,3 @@ Please go through the notebook https://github.com/AbhinayReddyYarva/MaskRCNN-Obj
 #### Note: Before starting the model to train, two files need to be updated in matterport mask rcnn repo. 
 
 Please go through the readme.md file in matter_mask_rcnn - https://github.com/AbhinayReddyYarva/MaskRCNN-ObjectSegmentation/blob/master/matterport_mask_rcnn/README.md
-
-
-
-
-
-
